@@ -11,6 +11,7 @@ import java.text.ParseException;
 import java.time.Duration;
 
 public class Testclass extends BaseClass {
+
     public LaunchPage launchPage;
     public WelcomePage welcomePage;
     public BagsPage bagsPage;

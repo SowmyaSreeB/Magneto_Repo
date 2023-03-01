@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <parameter name ="serverlink" value = "https://sowmyasri.budumuru:fhux4Re4Ue5jcc4OCWCAYPibunZhacFkW9yWQMwToWRyunF8t2@hub.lambdatest.com/wd/hub">
+
+    </parameter>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Sowmya/IdeaProjects/Magneto">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+            <class name="tests.Testclass">
+                <methods>
+                    <include name="signIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

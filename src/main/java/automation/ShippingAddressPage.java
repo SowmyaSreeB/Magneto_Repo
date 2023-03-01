@@ -58,7 +58,7 @@ Thread.sleep(5000);
         seleniumActions.EnterValueOnTextfield(phonenumbertextfield,readData.readFile("phone"));
     }
     public void nextelement() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         next.click();
     }
     }

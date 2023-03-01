@@ -17,7 +17,7 @@ public class ReviewAndPaymentsPage {
     WebElement placeorder;
 
     public void placingOrder() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         placeorder.click();
     }
 }
